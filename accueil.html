@@ -7,7 +7,11 @@
     <title>Accueil Interstellar</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body class="d-flex flex-column min-vh-100">
@@ -42,7 +46,77 @@
     </header>
 
     <!-- CONTENU PRINCIPAL -->
-    <main>
+    <main class="container-xl">
+        <div class="row align-items-center mt-5">
+            <div class="col-12 col-md-5">
+                <h1><strong>Interstellar</strong> — L'odyssée cosmique de Christopher Nolan
+                </h1>
+                <p>
+                    Dans un futur où la Terre ne peut plus nourrir ses habitants, un groupe d'explorateurs franchit un
+                    trou de ver pour trouver un nouveau monde habitable. Entre science et émotion, Interstellar nous
+                    plonge dans une aventure vertigineuse où l'amour, le temps et l'espace se rejoignent.
+                </p>
+                <p>
+                    Avec des images à couper le souffle et une musique inoubliable de Hans Zimmer, ce film est bien plus
+                    qu'un voyage spatial : c'est une expérience humaine et universelle.
+                </p>
+                <form class="d-flex align-items-center">
+                    <select class="form-select" aria-label="Choisir mon édition">
+                        <option selected>Choisir mon édition</option>
+                        <option value="DVD">DVD</option>
+                        <option value="Blu-Ray">Blu-Ray</option>
+                        <option value="Numérique">Numérique</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary ms-2">Acheter</button>
+                </form>
+
+            </div>
+            <div class="col-12 col-md-7">
+                <div id="carousel-Interstellar" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-Interstellar" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel-Interstellar" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel-Interstellar" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carousel-Interstellar" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carousel-Interstellar" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner ratio ratio-16x9">
+                        <div class="carousel-item active">
+                            <img src="Images/slide-1.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/slide-2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/slide-3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/slide-4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/slide-5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-Interstellar"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-Interstellar"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
 
 
     </main>
