@@ -1,16 +1,4 @@
-:root {
-    --couleur-primaire: #092B4B;
-    --couleur-secondaire: #AEBECE;
-    --couleur-accent: #7F4985;
-    --couleur-accent-hover: #d29fc9;
-    --font-titres: "MuseoModerno", sans-serif;
-    /* --bs-primary: #092B4B;
-    --bs-primary-rgb: rgb(9, 43, 75); - ne fonctionnnent pas*/
-}
-
 body {
-    color: var(--couleur-primaire);
-
     & h1,
     h2,
     h3,
@@ -32,26 +20,10 @@ body {
     object-fit: cover;
 }
 
-.form-select {
-    border-color: var(--couleur-accent);
-    color: var(--couleur-accent);
-    width: auto;
+a {
+    color: var(--bs-primary);
+    text-decoration: none;
 }
 
-.form-select:hover,
-.btn-primary:hover {
-    background-color: var(--couleur-accent-hover);
-    border-color: var(--couleur-accent);
-    color: white;
-}
 
-.btn-primary {
-    background-color: var(--couleur-accent);
-    border-color: var(--couleur-accent);
-}
-.btn-primary:focus,
-.btn-primary:active {
-    background-color: var(--couleur-accent) !important;
-    border-color: var(--couleur-accent) !important;
-}
 

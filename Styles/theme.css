@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  /* === Palette de couleurs === */
+  --bs-primary: #092B4B;
+  --bs-primary-rgb: 9, 43, 75;
+  --bs-secondary-color: #AEBECE;
+  --bs-secondary-color-rgb: 174, 190, 206;
+  --bs-emphasis-color: #7F4985;
+  --bs-emphasis-color-rgb: 127, 73, 133;
+  --bs-tertiary-color: #d29fc9;
+  --bs-tertiary-color-rgb: 210, 159, 201;
+
+  --bs-body-color: var(--bs-primary);
+  --bs-heading-color:var(--bs-primary);
+
+  /* === Typographie === */
+
+  --font-titres: "MuseoModerno", sans-serif;
+
+}
