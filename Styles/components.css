@@ -1,23 +1,45 @@
   /* Mes règles pour .btn-primary */
 
-.btn-primary {
-    --bs-btn-bg: var(--bs-emphasis-color);
-    --bs-btn-border-color: var(--bs-emphasis-color);
-    --bs-btn-hover-bg: var(--bs-tertiary-color);
-    --bs-btn-hover-border-color: var(--bs-emphasis-color);
-    --bs-btn-focus-shadow-rgb: var(--bs-tertiary-color-rgb);
-    --bs-btn-active-color: var(--bs-btn-hover-color);
-    --bs-btn-active-bg: color-mix(in srgb, var(--bs-tertiary-color), white 15%);
-    --bs-btn-active-border-color: var(--bs-emphasis-color);
-}
+  .btn-primary {
+      --bs-btn-bg: var(--bs-emphasis-color);
+      --bs-btn-border-color: var(--bs-emphasis-color);
+      --bs-btn-hover-bg: var(--bs-tertiary-color);
+      --bs-btn-hover-border-color: var(--bs-emphasis-color);
+      --bs-btn-focus-shadow-rgb: var(--bs-tertiary-color-rgb);
+      --bs-btn-active-color: var(--bs-btn-hover-color);
+      --bs-btn-active-bg: color-mix(in srgb, var(--bs-tertiary-color), white 15%);
+      --bs-btn-active-border-color: var(--bs-emphasis-color);
+  }
 
-.form-select {
-    width: auto;
-    border: var(--bs-border-width) solid var(--bs-emphasis-color);
+  .form-select {
+      width: auto;
+      border: var(--bs-border-width) solid var(--bs-emphasis-color);
 
-    &:focus {
-        border-color: var(--bs-emphasis-color);
-        outline: 0;
-        box-shadow: 0 0 0 .25rem color-mix(in srgb, var(--bs-tertiary-color), white 70%);
-    }   
-}
+      &:focus {
+          border-color: var(--bs-emphasis-color);
+          outline: 0;
+          box-shadow: 0 0 0 .25rem color-mix(in srgb, var(--bs-tertiary-color), white 70%);
+      }
+  }
+
+  .card {
+      --bs-card-height: 100%;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      /* Toutes les cartes ont la même hauteur */
+  }
+
+  .card-body {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      /* occupe tout l’espace restant */
+
+      & .card-footer {
+          margin-top: auto;
+          border: none;
+          background-color: transparent;
+          padding: 0;
+      }
+  }
