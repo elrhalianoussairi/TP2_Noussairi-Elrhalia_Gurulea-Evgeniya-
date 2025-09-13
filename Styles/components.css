@@ -36,10 +36,7 @@
       flex: 1;
       /* occupe tout l’espace restant */
 
-      & .card-footer {
+      & .card-body--links {
           margin-top: auto;
-          border: none;
-          background-color: transparent;
-          padding: 0;
       }
   }
