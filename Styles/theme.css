@@ -4,6 +4,8 @@
   /* === Palette de couleurs === */
   --bs-primary: #092B4B;
   --bs-primary-rgb: 9, 43, 75;
+  --bs-secondary: #AEBECE;
+  --bs-secondary-rgb:174, 190, 206;
   --bs-secondary-color: #AEBECE;
   --bs-secondary-color-rgb: 174, 190, 206;
   --bs-emphasis-color: #7F4985;
@@ -14,8 +16,13 @@
   --bs-body-color: var(--bs-primary);
   --bs-heading-color:var(--bs-primary);
 
+  
+
   /* === Typographie === */
 
   --font-titres: "MuseoModerno", sans-serif;
 
+}
+.bg-secondary {
+  background-color: color-mix(in srgb, var(--bs-secondary-color), white 40%)  !important;
 }
