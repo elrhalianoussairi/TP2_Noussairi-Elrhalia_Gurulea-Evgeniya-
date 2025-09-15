@@ -24,7 +24,7 @@
 
 }
 .bg-secondary {
-  background-color: color-mix(in srgb, var(--bs-secondary-color), white 40%)  !important;
+  background-color: color-mix(in srgb,var(--bs-secondary-color), white 40%)  !important;
 }
 
 .bg-primary {
