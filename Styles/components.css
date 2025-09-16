@@ -1,4 +1,10 @@
-  /* Mes règles pour .btn-primary */
+  .bg-primary {
+      background-color: var(--bs-primary) !important;
+  }
+
+  .bg-secondary {
+      background-color: color-mix(in srgb, var(--bs-secondary-color), white 40%) !important;
+  }
 
   .btn-primary {
       --bs-btn-bg: var(--bs-emphasis-color);
@@ -22,19 +28,23 @@
       }
   }
 
+  .carousel-indicators [data-bs-target] {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+  }
+
   .card {
       --bs-card-height: 100%;
       display: flex;
       flex-direction: column;
       height: 100%;
-      /* Toutes les cartes ont la même hauteur */
   }
 
   .card-body {
       display: flex;
       flex-direction: column;
       flex: 1;
-      /* occupe tout l’espace restant */
 
       & .card-body--links {
           margin-top: auto;
