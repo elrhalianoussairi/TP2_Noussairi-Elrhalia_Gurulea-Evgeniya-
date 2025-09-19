@@ -9,4 +9,6 @@
 - Développement de la **page Tournage**
 
 ## Gurulea Evgeniya
-- (À compléter avec sa partie)
+- Création de la branche **accueil**
+- Développement de la **page Accueil**
+- Participation à la révision des pull requests
