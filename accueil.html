@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accueil Interstellar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Thème / Composants / Styles -->
+    <link rel="stylesheet" href="Styles/theme.css">
+    <link rel="stylesheet" href="Styles/components.css">
+    <link rel="stylesheet" href="Styles/style.css">
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <a href="#content" class="visually-hidden-focusable">Aller au contenu principal</a>
+    <!-- HEADER (NAVBAR Bootstrap) -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand text-white" href="accueil.html">
+                    <img src="images/logo.png" alt="Logo du film" height="100">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white active" href="accueil.html">
+                                <i class="fas fa-film"></i> Accueil
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="tournage.html">
+                                <i class="fas fa-video"></i> Tournage
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CONTENU PRINCIPAL -->
+    <main id="content" class="container-xl">
+        <section class="row align-items-center mt-5">
+            <div class="col-12 col-md-5 mb-5">
+                <h1><strong>Interstellar</strong></h1>
+                <h4>L'odyssée cosmique de Christopher Nolan</h4>
+                <p>
+                    Dans un futur où la Terre ne peut plus nourrir ses habitants, un groupe d'explorateurs franchit un
+                    trou de ver pour trouver un nouveau monde habitable. Entre science et émotion, Interstellar nous
+                    plonge dans une aventure vertigineuse où l'amour, le temps et l'espace se rejoignent.
+                </p>
+                <p>
+                    Avec des images à couper le souffle et une musique inoubliable de Hans Zimmer, ce film est bien plus
+                    qu'un voyage spatial : c'est une expérience humaine et universelle.
+                </p>
+                <form class="d-flex align-items-center">
+                    <select class="form-select" aria-label="Choisir mon édition">
+                        <option selected>Choisir mon édition</option>
+                        <option value="DVD">DVD</option>
+                        <option value="Blu-Ray">Blu-Ray</option>
+                        <option value="Numérique">Numérique</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary ms-2">Acheter</button>
+                </form>
+            </div>
+            <div class="col-12 col-md-7">
+                <div id="carousel-Interstellar" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-Interstellar" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1">
+                        </button>
+                        <button type="button" data-bs-target="#carousel-Interstellar" data-bs-slide-to="1"
+                            aria-label="Slide 2">
+                        </button>
+                        <button type="button" data-bs-target="#carousel-Interstellar" data-bs-slide-to="2"
+                            aria-label="Slide 3">
+                        </button>
+                        <button type="button" data-bs-target="#carousel-Interstellar" data-bs-slide-to="3"
+                            aria-label="Slide 4">
+                        </button>
+                        <button type="button" data-bs-target="#carousel-Interstellar" data-bs-slide-to="4"
+                            aria-label="Slide 5">
+                        </button>
+                    </div>
+                    <div class="carousel-inner ratio ratio-16x9">
+                        <div class="carousel-item active">
+                            <img src="Images/slide-1.jpeg" class="d-block w-100 carousel-item--img"
+                                alt="Cooper sur la planète de glace">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/slide-2.jpg" class="d-block w-100 carousel-item--img"
+                                alt="Cooper et Murph, sur Terre, regardent le ciel étoilé.">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/slide-3.jpg" class="d-block w-100 carousel-item--img"
+                                alt="Murph et son frère, au cœur du champ de maïs en flammes">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/slide-4.jpg" class="d-block w-100 carousel-item--img"
+                                alt="L'Endurance s'approche de Gargantua, le trou noir supermassif">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Images/slide-5.jpg" class="d-block w-100 carousel-item--img"
+                                alt="Cooper, Brand et Doyle explorent la planète Miller, où chaque heure équivaut à sept années sur Terre">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-Interstellar"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-Interstellar"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-3 border-top border-3 border-secondary opacity-50">
+
+        <section class="mt-5">
+            <h2>Une distribution stellaire</h2>
+            <p>Des performances inoubliables qui donnent vie à l'émotion et à la science</p>
+            <div class="row">
+
+                <div class="col-6 col-md-4 col-xl-3 mb-4">
+                    <div class="card">
+                        <img src="Images/Actors/Matthew-Mcconaughey.jpg" class="card-img-top"
+                            alt="Portrait de Matthew McConaughey">
+                        <div class="card-body">
+                            <h5 class="card-title">Matthew McConaughey</h5>
+                            <p class="card-text">Joseph "Coop" Cooper, un pilote courageux et père dévoué, prêt à
+                                tout sacrifier pour offrir un avenir à ses enfants et à l'humanité.</p>
+                            <div class="card-body--links">
+                                <a href="https://www.facebook.com/" class="me-3" aria-label="Facebook"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/" class="me-3" aria-label="Instagram"><i
+                                        class="fab fa-instagram"></i></a>
+                                <a href="https://x.com/" class="me-3" aria-label="Tweeter"><i
+                                        class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3 mb-4">
+                    <div class="card">
+                        <img src="Images/Actors/Ann.jpg" class="card-img-top" alt="Portrait d'Anne Hathaway">
+                        <div class="card-body">
+                            <h5 class="card-title">Anne Hathaway</h5>
+                            <p class="card-text">Dr. Amelia Brand, une scientifique brillante guidée par l'espoir et
+                                l'amour, déterminée à trouver une nouvelle planète habitable.</p>
+                            <div class="card-body--links">
+                                <a href="https://www.facebook.com/" class="me-3" aria-label="Facebook"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/" class="me-3" aria-label="Instagram"><i
+                                        class="fab fa-instagram"></i></a>
+                                <a href="https://x.com/" class="me-3" aria-label="Tweeter"><i
+                                        class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3 mb-4">
+                    <div class="card">
+                        <img src="Images/Actors/Jessica-Chastain.jpg" class="card-img-top"
+                            alt="Portrait de Jessica Chastain">
+                        <div class="card-body">
+                            <h5 class="card-title">Jessica Chastain</h5>
+                            <p class="card-text">Murphy "Murph" Cooper, l'esprit visionnaire et passionné qui,
+                                malgré la douleur de l'absence, continue la quête scientifique commencée par son
+                                père.</p>
+                            <div class="card-body--links">
+                                <a href="https://www.facebook.com/" class="me-3" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.instagram.com/" class="me-3" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://x.com/" class="me-3" aria-label="Tweeter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3 mb-4">
+                    <div class="card">
+                        <img src="Images/Actors/John-Lithgow.jpg" class="card-img-top" alt="Portrait de John Lithgow">
+                        <div class="card-body">
+                            <h5 class="card-title">John Lithgow</h5>
+                            <p class="card-text">Donald, une présence tendre et rassurante, qui incarne la sagesse
+                                et le soutien familial.</p>
+                            <div class=" card-body--links">
+                                <a href="https://www.facebook.com/" class="me-3" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.instagram.com/" class="me-3" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://x.com/" class="me-3" aria-label="Tweeter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3 mb-4">
+                    <div class="card">
+                        <img src="Images/Actors/Michael-Caine.jpg" class="card-img-top" alt="Portrait de Michael Caine">
+                        <div class="card-body">
+                            <h5 class="card-title">Michael Caine</h5>
+                            <p class="card-text">Professeur John Brand, un mentor respecté et stratège, porteur de
+                                secrets qui pèsent lourd sur le destin de l'humanité.</p>
+                            <div class="card-body--links">
+                                <a href="https://www.facebook.com/" class="me-3" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.instagram.com/" class="me-3" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://x.com/" class="me-3" aria-label="Tweeter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3 mb-4">
+                    <div class="card">
+                        <img src="Images/Actors/Casey-Affleck.jpg" class="card-img-top" alt="Portrait de Casey Affleck">
+                        <div class="card-body">
+                            <h5 class="card-title">Casey Affleck</h5>
+                            <p class="card-text">Tom Cooper, fils fidèle à la terre, déterminé à faire vivre la
+                                ferme familiale malgré l'adversité.</p>
+                            <div class="card-body--links">
+                                <a href="https://www.facebook.com/" class="me-3" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.instagram.com/" class="me-3" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://x.com/" class="me-3" aria-label="Tweeter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3 mb-4">
+                    <div class="card">
+                        <img src="Images/Actors/Wes-Bentley.jpg" class="card-img-top" alt="Portrait de Wes Bentley">
+                        <div class="card-body">
+                            <h5 class="card-title">Wes Bentley</h5>
+                            <p class="card-text">Doyle, un explorateur intrépide, compagnon loyal au cœur de la
+                                mission Endurance.</p>
+                            <div class="card-body--links">
+                                <a href="https://www.facebook.com/" class="me-3" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.instagram.com/" class="me-3" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://x.com/" class="me-3" aria-label="Tweeter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xl-3 mb-4">
+                    <div class="card">
+                        <img src="Images/Actors/Bill-Irwin.jpg" class="card-img-top" alt="Portrait de Bill Irwin">
+                        <div class="card-body">
+                            <h5 class="card-title">Bill Irwin</h5>
+                            <p class="card-text">TARS et CASE, des robots étonnamment humains, alliant humour,
+                                efficacité et loyauté sans faille envers l'équipage.</p>
+                            <div class="card-body--links">
+                                <a href="https://www.facebook.com/" class="me-3" aria-label="Facebook">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://www.instagram.com/" class="me-3" aria-label="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://x.com/" class="me-3" aria-label="Tweeter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="my-3 border-top border-3 border-secondary opacity-50">
+
+        <section class="mb-5 mt-5 bg-secondary">
+            <!-- 1er bloc -->
+            <div class="d-flex flex-column flex-md-row-reverse align-items-center justify-content-center mb-3">
+                <div class="p-3 col-md-5 text-center text-md-start">
+                    <h3>À travers le trou de ver</h3>
+                    <p>Un passage mystérieux découvert près de Saturne ouvre la voie vers une autre galaxie. Pour
+                        l'humanité, c'est l'unique opportunité d'échapper à une Terre mourante et de trouver un nouveau
+                        foyer parmi les étoiles.</p>
+                </div>
+                <div class="p-3 col-md-5">
+                    <img src="images/Screen-1.png" class="img-fluid rounded" alt="Trou de ver">
+                </div>
+            </div>
+
+            <!-- 2e bloc -->
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-center mb-3">
+                <div class="p-3 col-md-5 text-center text-md-start">
+                    <h3>Le temps qui se dilate</h3>
+                    <p>Dans l'espace, le temps ne s'écoule pas partout de la même manière. Sur certaines planètes, une
+                        simple heure peut signifier plusieurs années passées sur Terre, transformant chaque décision en
+                        un choix déchirant aux conséquences irréversibles.</p>
+                </div>
+                <div class="p-3 col-md-5">
+                    <img src="images/Screen-2.png" class="img-fluid rounded" alt="Une exoplanète couverte de l'eau">
+                </div>
+            </div>
+
+            <!-- 3e bloc -->
+            <div class="d-flex flex-column flex-md-row-reverse align-items-center justify-content-center">
+                <div class="p-3 col-md-5 text-center text-md-start">
+                    <h3>L'amour comme repère</h3>
+                    <p>Bien plus qu'un sentiment, l'amour traverse le temps et l'espace. Dans Interstellar, il devient
+                        une force universelle, un guide invisible qui relie les personnages malgré la distance infinie
+                        qui les sépare.</p>
+                </div>
+                <div class="p-3 col-md-5">
+                    <img src="images/Screen-3.png" class="img-fluid rounded" alt="Scène émotive de père et fille">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER Bootstrap -->
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="row align-items-center text-center text-md-start">
+
+                <div class="col-md-6 mb-2 mb-md-0">
+                    <a href="tel:+XX0000000">📞 +XX 000 0000</a> |
+                    <a href="mailto:hello@pruthvi.design">✉️ hello@pruthvi.design</a>
+                </div>
+
+                <div class="col-md-6 text-md-end">
+                    <span class="me-5">Gurulea Evgeniya et Noussairi Elrhalia</span>
+                    <a href="https://www.facebook.com/" class="me-3" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" class="me-3" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/" class="me-3" target="_blank" aria-label="Tweeter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <hr class="my-3 border-top border-3 border-secondary opacity-50">
+
+            <div class="row">
+                <div class="col text-center text-md-start">
+                    <small>Cégep de Trois-Rivières</small>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+
+</html>
