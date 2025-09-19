@@ -1,0 +1,9 @@
+.btn-outline-primary {
+    --bs-btn-color: var(--bs-emphasis-color);
+    --bs-btn-border-color: var(--bs-emphasis-color);
+    --bs-btn-hover-bg: var(--bs-tertiary-color);
+    --bs-btn-hover-border-color: var(--bs-emphasis-color);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-active-bg: color-mix(in srgb, var(--bs-tertiary-color), white 15%);
+    --bs-btn-active-border-color: var(--bs-emphasis-color);
+  }
