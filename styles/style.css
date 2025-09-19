@@ -17,14 +17,6 @@ section {
   padding: 60px 0;
 }
 
-/* Séparateur entre sections */
-.section-divider {
-  width: 60px;
-  height: 4px;
-  background-color: var(--bs-emphasis-color);
-  margin: 20px auto;
-  border-radius: 2px;
-}
 
 /* Images centrées dans les sections */
 .section-img {
