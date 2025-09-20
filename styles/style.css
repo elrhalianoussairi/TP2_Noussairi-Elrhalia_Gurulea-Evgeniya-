@@ -1,15 +1,11 @@
-/* === Mise en page === */
 body {
-  color: var(--bs-body-color);
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-}
-
-/* Titres */
-h1, h2, h3, h4, h5 {
-  font-family: var(--font-titres);
+    & h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: var(--font-titres);
+    }
 }
 
 
