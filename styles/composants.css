@@ -9,16 +9,6 @@
   --bs-btn-active-border-color: var(--bs-emphasis-color);
 }
 
-/* === Navbar === */
-.navbar {
-  background-color: var(--bs-primary);
-}
-.navbar .nav-link {
-  color: #fff !important;
-}
-.navbar .nav-link:hover {
-  color: var(--bs-tertiary-color) !important;
-}
 
 /* === Cards === */
 .card {
@@ -64,13 +54,4 @@
   color: #fff;
   border-radius: .25rem;
   z-index: 1000;
-}
-
-
-/* === Footer === */
-footer {
-  background-color: var(--bs-primary);
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
 }
