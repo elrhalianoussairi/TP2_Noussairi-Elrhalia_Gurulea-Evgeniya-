@@ -1,4 +1,9 @@
+.bg-primary {
+      background-color: var(--bs-primary) !important;
+  }
+
 /* === Boutons personnalisés === */
+
 .btn-outline-primary {
   --bs-btn-color: var(--bs-emphasis-color);
   --bs-btn-border-color: var(--bs-emphasis-color);
