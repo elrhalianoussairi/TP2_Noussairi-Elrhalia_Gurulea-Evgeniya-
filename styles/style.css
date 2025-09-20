@@ -12,11 +12,6 @@ h1, h2, h3, h4, h5 {
   font-family: var(--font-titres);
 }
 
-/* Espacement entre sections */
-section {
-  padding: 60px 0;
-}
-
 
 /* Images centrées dans les sections */
 .section-img {
@@ -24,4 +19,8 @@ section {
   margin: 0 auto;
   max-width: 80%;
   border-radius: 10px;
+}
+a {
+  color: var(--bs-primary);
+  text-decoration: none;
 }
