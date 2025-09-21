@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tournage Interstellar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Thème / Composants / Styles -->
+    <link rel="stylesheet" href="styles/theme.css">
+    <link rel="stylesheet" href="styles/composants.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <a href="#content" class="visually-hidden-focusable">Aller au contenu principal</a>
+
+    <!-- HEADER (NAVBAR Bootstrap) -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand text-white" href="accueil.html">
+                    <img src="images/logo.png" alt="Logo du film" height="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white active" href="accueil.html">
+                                <i class="fas fa-film"></i> Accueil
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="tournage.html">
+                                <i class="fas fa-video"></i> Tournage
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- CONTENU PRINCIPAL -->
+    <main id="content" class="main-content">
+
+
+        <!-- Section Faits divers -->
+        <section class="section section--facts py-5">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <!-- Image -->
+                    <div class="col-lg-6 mb-4 mb-lg-0 section__image">
+                        <img src="images/statistique.png" alt="Graphique des faits marquants du film Interstellar"
+                            class="img-fluid rounded shadow">
+                    </div>
+
+                    <!-- Texte et chiffres -->
+                    <div class="col-lg-6 section__text text-center text-lg-start">
+                        <div class="px-lg-4">
+                            <h2 class="mb-3" style="color:#092B4B;">Faits divers</h2>
+                            <p>
+                                Découvrez quelques faits marquants autour du film Interstellar,
+                                de sa production spectaculaire à son succès international.
+                            </p>
+
+                            <div class="row my-4">
+                                <div class="col-6 section__fact">
+                                    <h3 style="color:#092B4B;">165M $</h3>
+                                    <p class="text-muted">Budget du film</p>
+                                </div>
+                                <div class="col-6 section__fact">
+                                    <h3 style="color:#7F4985;">681M $</h3>
+                                    <p class="text-muted">Recettes mondiales</p>
+                                </div>
+                                <div class="col-6 section__fact">
+                                    <h3 style="color:#d29fc9;">2 h 49 min</h3>
+                                    <p class="text-muted">Durée du film</p>
+                                </div>
+                                <div class="col-6 section__fact">
+                                    <h3 style="color:#092B4B;">1 Oscar</h3>
+                                    <p class="text-muted">Meilleurs effets visuels</p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trait séparateur -->
+        <hr style="width:80%; margin:40px auto; border:2px solid #092B4B;">
+
+        <!-- Section Photos tournage -->
+        <section class="section section--shoot py-5">
+            <div class="container">
+                <div class="row g-4">
+
+                    <!-- Première ligne : 2 images -->
+                    <div class="col-6 col-md-4 section__card">
+                        <div class="card shadow-sm border-0">
+                            <img src="images/tournage1.jpg" class="card-img-top"
+                                alt="Scène du tournage d’Interstellar 1">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 section__card">
+                        <div class="card shadow-sm border-0">
+                            <img src="images/tournage2.jpg" class="card-img-top"
+                                alt="Scène du tournage d’Interstellar 2">
+                        </div>
+                    </div>
+
+                    <!-- Deuxième ligne : 1 image centrée -->
+                    <div class="col-6 offset-3 offset-sm-0 col-md-4 section__card">
+                        <div class="card shadow-sm border-0">
+                            <img src="images/tournage3.jpg" class="card-img-top"
+                                alt="Scène du tournage d’Interstellar 3">
+                        </div>
+                    </div>
+
+                    <!-- Troisième ligne : 2 images -->
+                    <div class="col-6 col-md-4 section__card">
+                        <div class="card shadow-sm border-0">
+                            <img src="images/tournage4.jpg" class="card-img-top"
+                                alt="Scène du tournage d’Interstellar 4">
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4 section__card">
+                        <div class="card shadow-sm border-0">
+                            <img src="images/tournage5.jpg" class="card-img-top"
+                                alt="Scène du tournage d’Interstellar 5">
+                        </div>
+                    </div>
+
+                    <!-- Quatrième ligne : 1 image centrée -->
+                    <div class="col-6 offset-3 offset-sm-0 col-md-4 section__card">
+                        <div class="card shadow-sm border-0">
+                            <img src="images/tournage6.jpg" class="card-img-top"
+                                alt="Scène du tournage d’Interstellar 6">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Trait séparateur -->
+        <hr style="width:80%; margin:40px auto; border:2px solid #092B4B;">
+
+        <!-- Section Accordion -->
+
+        <section class="my-5">
+            <h2 class="text-center mb-4">Présentation de la direction artistique</h2>
+            <p class="text-center mb-5">
+                Interstellar, réalisé par Christopher Nolan, est un film de science-fiction qui explore les thèmes
+                du<br>
+                voyage dans l’espace, de l’amour et de la survie de l’humanité. La direction artistique mêle
+                réalisme<br>
+                scientifique et visuels spectaculaires pour immerger le spectateur dans un futur proche et des
+                mondes lointains.
+            </p>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="accordion" id="accordionGauche">
+                            <!-- Item 1 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                        Quelle est la mission principale d’Interstellar ?
+                                    </button>
+                                </h2>
+                                <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+                                    data-bs-parent="#accordionGauche">
+                                    <div class="accordion-body">Trouver une nouvelle planète habitable pour sauver
+                                        l’humanité face à la dégradation de la Terre.</div>
+                                </div>
+                            </div>
+
+                            <!-- Item 2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                        Qui est le personnage principal du film ?
+                                    </button>
+                                </h2>
+                                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                                    data-bs-parent="#accordionGauche">
+                                    <div class="accordion-body">Cooper, ancien pilote et ingénieur de la NASA.</div>
+                                </div>
+                            </div>
+
+                            <!-- Item 3 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                        Quel rôle joue Murphy dans l’histoire ?
+                                    </button>
+                                </h2>
+                                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                                    data-bs-parent="#accordionGauche">
+                                    <div class="accordion-body">Murphy est la fille de Cooper, qui devient scientifique
+                                        et aide à résoudre l’équation de la gravité.</div>
+                                </div>
+                            </div>
+
+                            <!-- Item 4 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                        Quelles planètes explorent-ils dans le film ?
+
+                                    </button>
+                                </h2>
+                                <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                                    data-bs-parent="#accordionGauche">
+                                    <div class="accordion-body">Miller (planète océan), Mann (planète glacée), et
+                                        Edmunds (planète potentiellement habitable).</div>
+                                </div>
+                            </div>
+
+                            <!-- Item 5 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                        Quel élément visuel symbolise le temps dans le film ?
+                                    </button>
+                                </h2>
+                                <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                                    data-bs-parent="#accordionGauche">
+                                    <div class="accordion-body">Le trou noir Gargantua et la relativité du temps qui y
+                                        est associée.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="accordion" id="accordionDroite">
+                            <!-- Item 6 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading6">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                                        Qui a composé la musique du film ?
+                                    </button>
+                                </h2>
+                                <div id="collapse6" class="accordion-collapse collapse show" aria-labelledby="heading6"
+                                    data-bs-parent="#accordionDroite">
+                                    <div class="accordion-body">Hans Zimmer, avec un mélange de cordes, orgue et
+                                        percussions puissantes.</div>
+                                </div>
+                            </div>
+
+                            <!-- Item 7 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading7">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                        Comment le film représente-t-il l’espace ?
+                                    </button>
+                                </h2>
+                                <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7"
+                                    data-bs-parent="#accordionDroite">
+                                    <div class="accordion-body">Avec des effets réalistes basés sur les équations de la
+                                        relativité générale de Kip Thorne.</div>
+                                </div>
+                            </div>
+
+                            <!-- Item 8 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading8">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                        Quel est le rôle de l’amour dans le film ?
+                                    </button>
+                                </h2>
+                                <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8"
+                                    data-bs-parent="#accordionDroite">
+                                    <div class="accordion-body">L’amour est présenté comme une force qui transcende le
+                                        temps et l’espace, guidant certaines décisions clés.</div>
+                                </div>
+                            </div>
+
+                            <!-- Item 9 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading9">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                        Quelle est la fin du film ?
+                                    </button>
+                                </h2>
+                                <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9"
+                                    data-bs-parent="#accordionDroite">
+                                    <div class="accordion-body">Cooper se retrouve dans la station spatiale orbitant
+                                        autour de Saturne et décide de partir retrouver Amelia sur la planète Edmunds.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Item 10 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading10">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                        Quel message artistique le film transmet-il ?
+                                    </button>
+                                </h2>
+                                <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10"
+                                    data-bs-parent="#accordionDroite">
+                                    <div class="accordion-body">La fusion de la science et de l’émotion humaine,
+                                        montrant que la survie de l’humanité dépend autant de la technologie que de nos
+                                        liens affectifs.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <!-- FOOTER Bootstrap -->
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="row align-items-center text-center text-md-start">
+
+                <div class="col-md-6 mb-2 mb-md-0">
+                    <a href="tel:+XX0000000">📞 +XX 000 0000</a> |
+                    <a href="mailto:hello@pruthvi.design">✉️ hello@pruthvi.design</a>
+                </div>
+
+                <div class="col-md-6 text-md-end">
+                    <span class="me-5">Gurulea Evgeniya et Noussairi Elrhalia</span>
+                    <a href="https://www.facebook.com/" class="me-3" target="_blank" aria-label="Facebook"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" class="me-3" target="_blank" aria-label="Instagram"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/" class="me-3" target="_blank" aria-label="Tweeter"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank" aria-label="LinkedIn"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <hr class="my-3 border-top border-3 border-secondary opacity-50">
+
+            <div class="row">
+                <div class="col text-center text-md-start">
+                    <small>Cégep de Trois-Rivières</small>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+</body>
+
+
+</html>
